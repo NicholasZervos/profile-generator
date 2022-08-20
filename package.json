@@ -1,5 +1,26 @@
 {
+  "name": "profile-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicholasZervos/profile-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicholasZervos/profile-generator/issues"
+  },
+  "homepage": "https://github.com/NicholasZervos/profile-generator#readme",
   "dependencies": {
-    "inquirer": "^8.2.4"
+    "inquirer": "^9.1.0",
+    "jest": "^28.1.3"
   }
 }
