@@ -1,5 +1,5 @@
 
-const Engineer = require('../lib/Engineer');
+const Engineer = require('../libs/Engineer');
 const Employee = require('../libs/Employee');
 
 
@@ -10,5 +10,5 @@ test('can get name using the getName function', function(){
 });
 
 test('can get Github username using the getGithub function', function(){
-    expect(testEngineer.getGithub()).toBe('JoesGit')
+    expect(testEngineer.getGithub()).toEqual('JoesGit')
 });
