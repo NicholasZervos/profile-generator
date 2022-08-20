@@ -10,5 +10,5 @@ test('can get name using the getName function', function(){
 });
 
 test('can get Github username using the getGithub function', function(){
-    expect(testEngineer.getGithub()).toEqual('JoesGit')
+    expect(testEngineer.getGithub()).toBe('JoesGit')
 });
